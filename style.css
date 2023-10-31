@@ -235,3 +235,7 @@ section p {
 	font-weight: bold;
 }
 
+@media screen and (max-width: 580px) {
+	nav a { font-size: 1.25rem; line-height: 2rem; }
+	.scroller:after { content: "";}
+}
